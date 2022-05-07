@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
+
+<!-- Mirrored from www.anime-jl.net/auth/register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Mar 2022 22:12:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Registrate en AnimeJL y ten acceso a muchas cosas como: seguir usuarios, comentar en los post, valorar post y mucho más.">
+    <meta name="author" content="AnimeJL">
+    <link rel='canonical' href='register.html' />
+    <link rel='shortlink' href='register.html'/>
+
+    <title>Crear cuenta | AnimeJL</title>
+    
+    <!-- SEO -->
+    <meta property='og:title' content='Registrarse | AnimeJL' />
+    <meta property='og:site_name' content='AnimeJL' />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='register.html' />
+    <meta property='og:image' content='../image/zonaleros.html' />
+    
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<!-- SITEMAP -->
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap" />
+
+	<!-- BASE CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../animeflv/css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../animeflv/css/css.css"/>
+	<link rel="stylesheet" type="text/css" href="../animeflv/css/bootstrap.css"/>
+
+	<script src="../../apis.google.com/js/platform.js"></script>
+	<script type="text/javascript" src="../animeflv/js/advertisement5e1f.js?v=2"></script>
+
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5S0FBTFPHZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5S0FBTFPHZ');
+</script>
+<script async src="../../arc.io/widget.min.js#d6YEVkoq"></script>
+    <!-- themoneytizer -->
+<script type="text/javascript" async="true">
+(function() {
+    var host = 'www.themoneytizer.com';
+    var element = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    var url = 'https://quantcast.mgr.consensu.org/'
+        .concat('../choice/index.html', '6Fv0cGNfc_bw8', '../index.html', host, '../choice.html');
+    var uspTries = 0;
+    var uspTriesLimit = 3;
+    element.async = true;
+    element.type = 'text/javascript';
+    element.src = url;
+
+    firstScript.parentNode.insertBefore(element, firstScript);
+
+    function makeStub() {
+        var TCF_LOCATOR_NAME = '__tcfapiLocator';
+        var queue = [];
+        var win = window;
+        var cmpFrame;
+
+        function addFrame() {
+            var doc = win.document;
+            var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+            if (!otherCMP) {
+                if (doc.body) {
+                    var iframe = doc.createElement('iframe');
+
+                    iframe.style.cssText = 'display:none';
+                    iframe.name = TCF_LOCATOR_NAME;
+                    doc.body.appendChild(iframe);
+                } else {
+                    setTimeout(addFrame, 5);
+                }
+            }
+            return !otherCMP;
+        }
+
+        function tcfAPIHandler() {
+            var gdprApplies;
+            var args = arguments;
+
+            if (!args.length) {
+                return queue;
+            } else if (args[0] === 'setGdprApplies') {
+                if (
+                    args.length > 3 &&
+                    args[2] === 2 &&
+                    typeof args[3] === 'boolean'
+                ) {
+                    gdprApplies = args[3];
+                    if (typeof args[2] === 'function') {
+                        args[2]('set', true);
+                    }
+                }
+            } else if (args[0] === 'ping') {
+                var retr = {
+                    gdprApplies: gdprApplies,
+                    cmpLoaded: false,
+                    cmpStatus: 'stub'
+                };
+
+                if (typeof args[2] === 'function') {
+                    args[2](retr);
+                }
+            } else {
+                queue.push(args);
+            }
+        }
+
+        function postMessageEventHandler(event) {
+            var msgIsString = typeof event.data === 'string';
+            var json = {};
+
+            try {
+                if (msgIsString) {
+                    json = JSON.parse(event.data);
+                } else {
+                    json = event.data;
+                }
+            } catch (ignore) {}
+
+            var payload = json.__tcfapiCall;
+
+            if (payload) {
+                window.__tcfapi(
+                    payload.command,
+                    payload.version,
+                    function(retValue, success) {
+                        var returnMsg = {
+                            __tcfapiReturn: {
+                                returnValue: retValue,
+                                success: success,
+                                callId: payload.callId
+                            }
+                        };
+                        if (msgIsString) {
+                            returnMsg = JSON.stringify(returnMsg);
+                        }
+                        event.source.postMessage(returnMsg, '*');
+                    },
+                    payload.parameter
+                );
+            }
+        }
+
+        while (win) {
+            try {
+                if (win.frames[TCF_LOCATOR_NAME]) {
+                    cmpFrame = win;
+                    break;
+                }
+            } catch (ignore) {}
+
+            if (win === window.top) {
+                break;
+            }
+            win = win.parent;
+        }
+        if (!cmpFrame) {
+            addFrame();
+            win.__tcfapi = tcfAPIHandler;
+            win.addEventListener('message', postMessageEventHandler, false);
+        }
+    };
+
+    if (typeof module !== 'undefined') {
+        module.exports = makeStub;
+    } else {
+        makeStub();
+    }
+
+    var uspStubFunction = function() {
+        var arg = arguments;
+        if (typeof window.__uspapi !== uspStubFunction) {
+            setTimeout(function() {
+                if (typeof window.__uspapi !== 'undefined') {
+                    window.__uspapi.apply(window.__uspapi, arg);
+                }
+            }, 500);
+        }
+    };
+
+    var checkIfUspIsReady = function() {
+        uspTries++;
+        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+            console.warn('USP is not accessible');
+        } else {
+            clearInterval(uspInterval);
+        }
+    };
+
+    if (typeof window.__uspapi === 'undefined') {
+        window.__uspapi = uspStubFunction;
+        var uspInterval = setInterval(checkIfUspIsReady, 6000);
+    }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+<!-- themoneytizer -->
+<div id="87154-39"><script src="../../ads.themoneytizer.com/s/gena224.html?type=39"></script><script src="../../ads.themoneytizer.com/s/requestform31f6.html?siteId=87154&amp;formatId=39"></script></div>
+
+
+<!-- clickadilla -->
+<script data-cfasync='false'>function R(K,h){var O=X();return R=function(p,E){p=p-0x87;var Z=O[p];return Z;},R(K,h);}(function(K,h){var Xo=R,O=K();while(!![]){try{var p=parseInt(Xo(0xac))/0x1*(-parseInt(Xo(0x90))/0x2)+parseInt(Xo(0xa5))/0x3*(-parseInt(Xo(0x8d))/0x4)+parseInt(Xo(0xb5))/0x5*(-parseInt(Xo(0x93))/0x6)+parseInt(Xo(0x89))/0x7+-parseInt(Xo(0xa1))/0x8+parseInt(Xo(0xa7))/0x9*(parseInt(Xo(0xb2))/0xa)+parseInt(Xo(0x95))/0xb*(parseInt(Xo(0x9f))/0xc);if(p===h)break;else O['push'](O['shift']());}catch(E){O['push'](O['shift']());}}}(X,0x33565),(function(){var XG=R;function K(){var Xe=R,h=15306,O='a3klsam',p='a',E='db',Z=Xe(0xad),S=Xe(0xb6),o=Xe(0xb0),e='cs',D='k',c='pro',u='xy',Q='su',G=Xe(0x9a),j='se',C='cr',z='et',w='sta',Y='tic',g='adMa',V='nager',A=p+E+Z+S+o,s=p+E+Z+S+e,W=p+E+Z+D+'-'+c+u+'-'+Q+G+'-'+j+C+z,L='/'+w+Y+'/'+g+V+Xe(0x9c),T=A,t=s,I=W,N=null,r=null,n=new Date()[Xe(0x94)]()[Xe(0x8c)]('T')[0x0][Xe(0xa3)](/-/ig,'.')['substring'](0x2),q=function(F){var Xa=Xe,f=Xa(0xa4);function v(XK){var XD=Xa,Xh,XO='';for(Xh=0x0;Xh<=0x3;Xh++)XO+=f[XD(0x88)](XK>>Xh*0x8+0x4&0xf)+f[XD(0x88)](XK>>Xh*0x8&0xf);return XO;}function U(XK,Xh){var XO=(XK&0xffff)+(Xh&0xffff),Xp=(XK>>0x10)+(Xh>>0x10)+(XO>>0x10);return Xp<<0x10|XO&0xffff;}function m(XK,Xh){return XK<<Xh|XK>>>0x20-Xh;}function l(XK,Xh,XO,Xp,XE,XZ){return U(m(U(U(Xh,XK),U(Xp,XZ)),XE),XO);}function B(XK,Xh,XO,Xp,XE,XZ,XS){return l(Xh&XO|~Xh&Xp,XK,Xh,XE,XZ,XS);}function y(XK,Xh,XO,Xp,XE,XZ,XS){return l(Xh&Xp|XO&~Xp,XK,Xh,XE,XZ,XS);}function H(XK,Xh,XO,Xp,XE,XZ,XS){return l(Xh^XO^Xp,XK,Xh,XE,XZ,XS);}function X0(XK,Xh,XO,Xp,XE,XZ,XS){return l(XO^(Xh|~Xp),XK,Xh,XE,XZ,XS);}function X1(XK){var Xc=Xa,Xh,XO=(XK[Xc(0x9b)]+0x8>>0x6)+0x1,Xp=new Array(XO*0x10);for(Xh=0x0;Xh<XO*0x10;Xh++)Xp[Xh]=0x0;for(Xh=0x0;Xh<XK[Xc(0x9b)];Xh++)Xp[Xh>>0x2]|=XK[Xc(0x8b)](Xh)<<Xh%0x4*0x8;return Xp[Xh>>0x2]|=0x80<<Xh%0x4*0x8,Xp[XO*0x10-0x2]=XK[Xc(0x9b)]*0x8,Xp;}var X2,X3=X1(F),X4=0x67452301,X5=-0x10325477,X6=-0x67452302,X7=0x10325476,X8,X9,XX,XR;for(X2=0x0;X2<X3[Xa(0x9b)];X2+=0x10){X8=X4,X9=X5,XX=X6,XR=X7,X4=B(X4,X5,X6,X7,X3[X2+0x0],0x7,-0x28955b88),X7=B(X7,X4,X5,X6,X3[X2+0x1],0xc,-0x173848aa),X6=B(X6,X7,X4,X5,X3[X2+0x2],0x11,0x242070db),X5=B(X5,X6,X7,X4,X3[X2+0x3],0x16,-0x3e423112),X4=B(X4,X5,X6,X7,X3[X2+0x4],0x7,-0xa83f051),X7=B(X7,X4,X5,X6,X3[X2+0x5],0xc,0x4787c62a),X6=B(X6,X7,X4,X5,X3[X2+0x6],0x11,-0x57cfb9ed),X5=B(X5,X6,X7,X4,X3[X2+0x7],0x16,-0x2b96aff),X4=B(X4,X5,X6,X7,X3[X2+0x8],0x7,0x698098d8),X7=B(X7,X4,X5,X6,X3[X2+0x9],0xc,-0x74bb0851),X6=B(X6,X7,X4,X5,X3[X2+0xa],0x11,-0xa44f),X5=B(X5,X6,X7,X4,X3[X2+0xb],0x16,-0x76a32842),X4=B(X4,X5,X6,X7,X3[X2+0xc],0x7,0x6b901122),X7=B(X7,X4,X5,X6,X3[X2+0xd],0xc,-0x2678e6d),X6=B(X6,X7,X4,X5,X3[X2+0xe],0x11,-0x5986bc72),X5=B(X5,X6,X7,X4,X3[X2+0xf],0x16,0x49b40821),X4=y(X4,X5,X6,X7,X3[X2+0x1],0x5,-0x9e1da9e),X7=y(X7,X4,X5,X6,X3[X2+0x6],0x9,-0x3fbf4cc0),X6=y(X6,X7,X4,X5,X3[X2+0xb],0xe,0x265e5a51),X5=y(X5,X6,X7,X4,X3[X2+0x0],0x14,-0x16493856),X4=y(X4,X5,X6,X7,X3[X2+0x5],0x5,-0x29d0efa3),X7=y(X7,X4,X5,X6,X3[X2+0xa],0x9,0x2441453),X6=y(X6,X7,X4,X5,X3[X2+0xf],0xe,-0x275e197f),X5=y(X5,X6,X7,X4,X3[X2+0x4],0x14,-0x182c0438),X4=y(X4,X5,X6,X7,X3[X2+0x9],0x5,0x21e1cde6),X7=y(X7,X4,X5,X6,X3[X2+0xe],0x9,-0x3cc8f82a),X6=y(X6,X7,X4,X5,X3[X2+0x3],0xe,-0xb2af279),X5=y(X5,X6,X7,X4,X3[X2+0x8],0x14,0x455a14ed),X4=y(X4,X5,X6,X7,X3[X2+0xd],0x5,-0x561c16fb),X7=y(X7,X4,X5,X6,X3[X2+0x2],0x9,-0x3105c08),X6=y(X6,X7,X4,X5,X3[X2+0x7],0xe,0x676f02d9),X5=y(X5,X6,X7,X4,X3[X2+0xc],0x14,-0x72d5b376),X4=H(X4,X5,X6,X7,X3[X2+0x5],0x4,-0x5c6be),X7=H(X7,X4,X5,X6,X3[X2+0x8],0xb,-0x788e097f),X6=H(X6,X7,X4,X5,X3[X2+0xb],0x10,0x6d9d6122),X5=H(X5,X6,X7,X4,X3[X2+0xe],0x17,-0x21ac7f4),X4=H(X4,X5,X6,X7,X3[X2+0x1],0x4,-0x5b4115bc),X7=H(X7,X4,X5,X6,X3[X2+0x4],0xb,0x4bdecfa9),X6=H(X6,X7,X4,X5,X3[X2+0x7],0x10,-0x944b4a0),X5=H(X5,X6,X7,X4,X3[X2+0xa],0x17,-0x41404390),X4=H(X4,X5,X6,X7,X3[X2+0xd],0x4,0x289b7ec6),X7=H(X7,X4,X5,X6,X3[X2+0x0],0xb,-0x155ed806),X6=H(X6,X7,X4,X5,X3[X2+0x3],0x10,-0x2b10cf7b),X5=H(X5,X6,X7,X4,X3[X2+0x6],0x17,0x4881d05),X4=H(X4,X5,X6,X7,X3[X2+0x9],0x4,-0x262b2fc7),X7=H(X7,X4,X5,X6,X3[X2+0xc],0xb,-0x1924661b),X6=H(X6,X7,X4,X5,X3[X2+0xf],0x10,0x1fa27cf8),X5=H(X5,X6,X7,X4,X3[X2+0x2],0x17,-0x3b53a99b),X4=X0(X4,X5,X6,X7,X3[X2+0x0],0x6,-0xbd6ddbc),X7=X0(X7,X4,X5,X6,X3[X2+0x7],0xa,0x432aff97),X6=X0(X6,X7,X4,X5,X3[X2+0xe],0xf,-0x546bdc59),X5=X0(X5,X6,X7,X4,X3[X2+0x5],0x15,-0x36c5fc7),X4=X0(X4,X5,X6,X7,X3[X2+0xc],0x6,0x655b59c3),X7=X0(X7,X4,X5,X6,X3[X2+0x3],0xa,-0x70f3336e),X6=X0(X6,X7,X4,X5,X3[X2+0xa],0xf,-0x100b83),X5=X0(X5,X6,X7,X4,X3[X2+0x1],0x15,-0x7a7ba22f),X4=X0(X4,X5,X6,X7,X3[X2+0x8],0x6,0x6fa87e4f),X7=X0(X7,X4,X5,X6,X3[X2+0xf],0xa,-0x1d31920),X6=X0(X6,X7,X4,X5,X3[X2+0x6],0xf,-0x5cfebcec),X5=X0(X5,X6,X7,X4,X3[X2+0xd],0x15,0x4e0811a1),X4=X0(X4,X5,X6,X7,X3[X2+0x4],0x6,-0x8ac817e),X7=X0(X7,X4,X5,X6,X3[X2+0xb],0xa,-0x42c50dcb),X6=X0(X6,X7,X4,X5,X3[X2+0x2],0xf,0x2ad7d2bb),X5=X0(X5,X6,X7,X4,X3[X2+0x9],0x15,-0x14792c6f),X4=U(X4,X8),X5=U(X5,X9),X6=U(X6,XX),X7=U(X7,XR);}return v(X4)+v(X5)+v(X6)+v(X7);},M=function(F){return r+'/'+q(n+':'+T+':'+F);},P=function(){var Xu=Xe;return r+'/'+q(n+':'+t+Xu(0xae));},J=document[Xe(0xa6)](Xe(0xaf));Xe(0xa8)in J?(L=L[Xe(0xa3)]('.js',Xe(0x9d)),J[Xe(0x91)]='module'):(L=L[Xe(0xa3)](Xe(0x9c),Xe(0xb4)),J[Xe(0xb3)]=!![]),N=q(n+':'+I+':domain')[Xe(0xa9)](0x0,0xa)+Xe(0x8a),r=Xe(0x92)+q(N+':'+I)[Xe(0xa9)](0x0,0xa)+'.'+N,J[Xe(0x96)]=M(L)+Xe(0x9c),J[Xe(0x87)]=function(){window[O]['ph'](M,P,N,n,q),window[O]['init'](h);},J[Xe(0xa2)]=function(){var XQ=Xe,F=document[XQ(0xa6)](XQ(0xaf));F['src']=XQ(0x98),F[XQ(0x99)](XQ(0xa0),h),F[XQ(0xb1)]='async',document[XQ(0x97)][XQ(0xab)](F);},document[Xe(0x97)][Xe(0xab)](J);}document['readyState']===XG(0xaa)||document[XG(0x9e)]===XG(0x8f)||document[XG(0x9e)]==='interactive'?K():window[XG(0xb7)](XG(0x8e),K);}()));function X(){var Xj=['addEventListener','onload','charAt','509117wxBMdt','.com','charCodeAt','split','988kZiivS','DOMContentLoaded','loaded','533092QTEErr','type','https:///','6ebXQfY','toISOString','22mCPLjO','src','head','../../js.wpadmngr.com/static/adManager.js','setAttribute','per','length','.js','.m.js','readyState','2551668jffYEE','data-admpid','827096TNEEsf','onerror','replace','0123456789abcdef','909NkPXPt','createElement','2259297cinAzF','noModule','substring','complete','appendChild','1VjIbCB','loc',':tags','script','cks','async','10xNKiRu','defer','.l.js','469955xpTljk','ksu'];X=function(){return Xj;};return X();}</script>
+
+<!-- chatbro -->
+<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET.html','https://www.chatbro.com/en/embed.js/?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */</script>
+     
+   
+    <script>
+    	ChatbroLoader({
+encodedChatId: '14bWe',
+siteDomain: 'anime-jl.net',
+signature: 'asdasdas'
+});
+
+    </script>
+        <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+ 
+<div class="Wrapper">
+	<!-- Header================================================== -->
+	<header class="Header" id='hdfx'>
+		<div class="Mid">
+						<div class="Container">
+				<div class="AX Row AFluid">
+					<div class="Logo">
+						<a href="../index.html"><img src="../image/logoec92.png?v=" alt="AnimeJL"/></a>
+					</div>
+					<div class="AFixed">
+						<input type="checkbox" hidden="hidden" id="BtnMenu">
+						<label for="BtnMenu" class="BtnMenu fa-bars"><span>MENU</span></label>
+						<nav class="CX Row">
+							<input type="checkbox" hidden="hidden" id="Hd-Search">
+							<div class="Search">  
+								<form action="https://www.anime-jl.net/animes" method="get">
+									<input name="q" type="text" id="search-anime" autocomplete="off" placeholder="Buscar...">
+									<button><i class="fa-search"></i></button>
+								</form>
+								<div class="DpdwCnt TtCn">
+									<ul class="ListResult"></ul>
+									 
+								</div>
+							</div>
+														<div class="Login">
+								<input type="checkbox" hidden="hidden" id="DpdwLnk-Login">
+								<label for="DpdwLnk-Login" class="Button"><span class="fa-user">Logearse</span></label>
+								<div class="DpdwCnt TtCn">
+									<div class="Title">INICIAR SESION</div>
+									<form method="POST" action="https://www.anime-jl.net/auth/login">
+        							<input type="hidden" name="_token" value="rnNtmDM1O3IRiBtrAu26DLopCHdm20Ea7cY27eLN">
+        								<label class="Form-Icon Right">
+										<input name="email" value="" type="text" placeholder="E-Mail">
+										<i class="fa-user"></i>
+										</label>
+																				<label class="Form-Icon Right">
+											<input name="password" type="password" placeholder="Contraseña">
+											<input type="hidden" name="remember" value="1">
+											<i class="fa-lock"></i>
+										</label>
+										<button type="submit">INICIAR SESIÓN</button>
+
+										
+										<div class="Links">
+											<a href="register.html">Registrate</a>
+											<a href="password/reset.html">¿Olvidaste tu contraseña?</a>
+										</div>
+									</form>
+								</div>
+							</div>
+														<ul class="Menu">
+																																																<li class="Current">
+																					
+											<a href="../index.html" title="Inicio">Inicio</a>
+										</li>
+																																																																			<li class="">
+																					
+											<a href="../animes.html" title="Animes">Animes</a>
+										</li>
+																																																																																																																							<li>
+																					
+											<a href="../animes34ba.html?genre[]=46&amp;order=created" title="Latino">Latino</a>
+										</li>
+																																																																				<li>
+																					
+											<a href="../animesec46.html?tipo%5B%5D=7&amp;order=created" title="HENTAI">HENTAI</a>
+										</li>
+																																																																				<li>
+																					
+											<a href="../pages/programacion.html" title="Programacion">Programacion</a>
+										</li>
+																																																																			<li class="">
+																					
+											<a href="../pedidos.html" title="Pedidos">Pedidos</a>
+										</li>
+																																		</ul>
+							
+							<ul class="ListSocial BFixed">
+								<li><a href='https://www.facebook.com/AnimeZerowe/' target='_blank' class='fa-facebook'></a></li>
+																 
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</header>	
+	<style type="text/css">
+    .Header#hdfx {
+        padding-top: 55px;
+    }
+    </style>
+    <div class="Body">
+        <div class="Container">
+            <div class="row de-auth">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <!-- Aqui imagen publicidad -->
+
+                    <div class="panel panel-default panel-login">
+                    
+                    
+                        
+                        <div class="panel-body">
+                            
+                            <div class="col-lg-12">
+
+                            <form method="POST" action="https://www.anime-jl.net/auth/register">
+                                <input type="hidden" name="_token" value="rnNtmDM1O3IRiBtrAu26DLopCHdm20Ea7cY27eLN">
+                                <div class="form-group input-icon-left">
+                                    <label for="Usuario">Nombre de usuario</label>
+                                    <input id="Usuario" type="text" class="form-control" name="username" value="" placeholder="Nombre de usuario" required autofocus>
+                                                                    </div>
+                                <div class="form-group input-icon-left">
+                                    <label for="pais">Correo electronico</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Email"  value="" required>
+                                                                    </div>
+                                <div class="form-group input-icon-left">
+                                    <label for="pais">Contraseña</label>
+                                    <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
+                                                                    </div>
+                                <div class="form-group input-icon-left">
+                                    <label for="password-confirm">Repita la Contraseña</label>
+                                    <input type="password" class="form-control" name="password_confirmation" placeholder="Repite la contraseña" required>
+                                </div>
+                                
+                                
+                                <div class="form-group input-icon-left">
+                                    <label for="country_id">Pais</label>
+                                     <select class="form-control" name="country_id" class="select" required>
+                                        <option value='' selected>-- Pais --</option>
+                                                                                <option value="1" >Afghanistan</option>
+                                                                                <option value="2" >Åland Islands</option>
+                                                                                <option value="3" >Albania</option>
+                                                                                <option value="4" >Algeria</option>
+                                                                                <option value="5" >American Samoa</option>
+                                                                                <option value="6" >Andorra</option>
+                                                                                <option value="7" >Angola</option>
+                                                                                <option value="8" >Anguilla</option>
+                                                                                <option value="9" >Antarctica</option>
+                                                                                <option value="10" >Antigua and Barbuda</option>
+                                                                                <option value="11" >Argentina</option>
+                                                                                <option value="12" >Armenia</option>
+                                                                                <option value="13" >Aruba</option>
+                                                                                <option value="14" >Ascension Island</option>
+                                                                                <option value="15" >Australia</option>
+                                                                                <option value="16" >Austria</option>
+                                                                                <option value="17" >Azerbaijan</option>
+                                                                                <option value="18" >Bahamas</option>
+                                                                                <option value="19" >Bahrain</option>
+                                                                                <option value="20" >Bangladesh</option>
+                                                                                <option value="21" >Barbados</option>
+                                                                                <option value="22" >Belarus</option>
+                                                                                <option value="23" >Belgium</option>
+                                                                                <option value="24" >Belize</option>
+                                                                                <option value="25" >Benin</option>
+                                                                                <option value="26" >Bermuda</option>
+                                                                                <option value="27" >Bhutan</option>
+                                                                                <option value="28" >Bolivia</option>
+                                                                                <option value="29" >Bosnia and Herzegovina</option>
+                                                                                <option value="30" >Botswana</option>
+                                                                                <option value="31" >Bouvet Island</option>
+                                                                                <option value="32" >Brazil</option>
+                                                                                <option value="33" >British Indian Ocean Territory</option>
+                                                                                <option value="34" >British Virgin Islands</option>
+                                                                                <option value="35" >Brunei</option>
+                                                                                <option value="36" >Bulgaria</option>
+                                                                                <option value="37" >Burkina Faso</option>
+                                                                                <option value="38" >Burundi</option>
+                                                                                <option value="39" >Cambodia</option>
+                                                                                <option value="40" >Cameroon</option>
+                                                                                <option value="41" >Canada</option>
+                                                                                <option value="42" >Canary Islands</option>
+                                                                                <option value="43" >Cape Verde</option>
+                                                                                <option value="44" >Caribbean Netherlands</option>
+                                                                                <option value="45" >Cayman Islands</option>
+                                                                                <option value="46" >Central African Republic</option>
+                                                                                <option value="47" >Ceuta and Melilla</option>
+                                                                                <option value="48" >Chad</option>
+                                                                                <option value="49" >Chile</option>
+                                                                                <option value="50" >China</option>
+                                                                                <option value="51" >Christmas Island</option>
+                                                                                <option value="52" >Clipperton Island</option>
+                                                                                <option value="53" >Cocos (Keeling) Islands</option>
+                                                                                <option value="54" >Colombia</option>
+                                                                                <option value="55" >Comoros</option>
+                                                                                <option value="56" >Congo (DRC)</option>
+                                                                                <option value="57" >Congo (Republic)</option>
+                                                                                <option value="58" >Cook Islands</option>
+                                                                                <option value="59" >Costa Rica</option>
+                                                                                <option value="60" >Côte d’Ivoire</option>
+                                                                                <option value="61" >Croatia</option>
+                                                                                <option value="62" >Cuba</option>
+                                                                                <option value="63" >Curaçao</option>
+                                                                                <option value="64" >Cyprus</option>
+                                                                                <option value="65" >Czech Republic</option>
+                                                                                <option value="66" >Denmark</option>
+                                                                                <option value="67" >Diego Garcia</option>
+                                                                                <option value="68" >Djibouti</option>
+                                                                                <option value="69" >Dominica</option>
+                                                                                <option value="70" >Dominican Republic</option>
+                                                                                <option value="71" >Ecuador</option>
+                                                                                <option value="72" >Egypt</option>
+                                                                                <option value="73" >El Salvador</option>
+                                                                                <option value="74" >Equatorial Guinea</option>
+                                                                                <option value="75" >Eritrea</option>
+                                                                                <option value="76" >Estonia</option>
+                                                                                <option value="77" >Ethiopia</option>
+                                                                                <option value="78" >Falkland Islands</option>
+                                                                                <option value="79" >Faroe Islands</option>
+                                                                                <option value="80" >Fiji</option>
+                                                                                <option value="81" >Finland</option>
+                                                                                <option value="82" >France</option>
+                                                                                <option value="83" >French Guiana</option>
+                                                                                <option value="84" >French Polynesia</option>
+                                                                                <option value="85" >French Southern Territories</option>
+                                                                                <option value="86" >Gabon</option>
+                                                                                <option value="87" >Gambia</option>
+                                                                                <option value="88" >Georgia</option>
+                                                                                <option value="89" >Germany</option>
+                                                                                <option value="90" >Ghana</option>
+                                                                                <option value="91" >Gibraltar</option>
+                                                                                <option value="92" >Greece</option>
+                                                                                <option value="93" >Greenland</option>
+                                                                                <option value="94" >Grenada</option>
+                                                                                <option value="95" >Guadeloupe</option>
+                                                                                <option value="96" >Guam</option>
+                                                                                <option value="97" >Guatemala</option>
+                                                                                <option value="98" >Guernsey</option>
+                                                                                <option value="99" >Guinea</option>
+                                                                                <option value="100" >Guinea-Bissau</option>
+                                                                                <option value="101" >Guyana</option>
+                                                                                <option value="102" >Haiti</option>
+                                                                                <option value="103" >Heard &amp; McDonald Islands</option>
+                                                                                <option value="104" >Honduras</option>
+                                                                                <option value="105" >Hong Kong</option>
+                                                                                <option value="106" >Hungary</option>
+                                                                                <option value="107" >Iceland</option>
+                                                                                <option value="108" >India</option>
+                                                                                <option value="109" >Indonesia</option>
+                                                                                <option value="110" >Iran</option>
+                                                                                <option value="111" >Iraq</option>
+                                                                                <option value="112" >Ireland</option>
+                                                                                <option value="113" >Isle of Man</option>
+                                                                                <option value="114" >Israel</option>
+                                                                                <option value="115" >Italy</option>
+                                                                                <option value="116" >Jamaica</option>
+                                                                                <option value="117" >Japan</option>
+                                                                                <option value="118" >Jersey</option>
+                                                                                <option value="119" >Jordan</option>
+                                                                                <option value="120" >Kazakhstan</option>
+                                                                                <option value="121" >Kenya</option>
+                                                                                <option value="122" >Kiribati</option>
+                                                                                <option value="123" >Kosovo</option>
+                                                                                <option value="124" >Kuwait</option>
+                                                                                <option value="125" >Kyrgyzstan</option>
+                                                                                <option value="126" >Laos</option>
+                                                                                <option value="127" >Latvia</option>
+                                                                                <option value="128" >Lebanon</option>
+                                                                                <option value="129" >Lesotho</option>
+                                                                                <option value="130" >Liberia</option>
+                                                                                <option value="131" >Libya</option>
+                                                                                <option value="132" >Liechtenstein</option>
+                                                                                <option value="133" >Lithuania</option>
+                                                                                <option value="134" >Luxembourg</option>
+                                                                                <option value="135" >Macau</option>
+                                                                                <option value="136" >Macedonia (FYROM)</option>
+                                                                                <option value="137" >Madagascar</option>
+                                                                                <option value="138" >Malawi</option>
+                                                                                <option value="139" >Malaysia</option>
+                                                                                <option value="140" >Maldives</option>
+                                                                                <option value="141" >Mali</option>
+                                                                                <option value="142" >Malta</option>
+                                                                                <option value="143" >Marshall Islands</option>
+                                                                                <option value="144" >Martinique</option>
+                                                                                <option value="145" >Mauritania</option>
+                                                                                <option value="146" >Mauritius</option>
+                                                                                <option value="147" >Mayotte</option>
+                                                                                <option value="148" >Mexico</option>
+                                                                                <option value="149" >Micronesia</option>
+                                                                                <option value="150" >Moldova</option>
+                                                                                <option value="151" >Monaco</option>
+                                                                                <option value="152" >Mongolia</option>
+                                                                                <option value="153" >Montenegro</option>
+                                                                                <option value="154" >Montserrat</option>
+                                                                                <option value="155" >Morocco</option>
+                                                                                <option value="156" >Mozambique</option>
+                                                                                <option value="157" >Myanmar (Burma)</option>
+                                                                                <option value="158" >Namibia</option>
+                                                                                <option value="159" >Nauru</option>
+                                                                                <option value="160" >Nepal</option>
+                                                                                <option value="161" >Netherlands</option>
+                                                                                <option value="162" >New Caledonia</option>
+                                                                                <option value="163" >New Zealand</option>
+                                                                                <option value="164" >Nicaragua</option>
+                                                                                <option value="165" >Niger</option>
+                                                                                <option value="166" >Nigeria</option>
+                                                                                <option value="167" >Niue</option>
+                                                                                <option value="168" >Norfolk Island</option>
+                                                                                <option value="169" >Northern Mariana Islands</option>
+                                                                                <option value="170" >North Korea</option>
+                                                                                <option value="171" >Norway</option>
+                                                                                <option value="172" >Oman</option>
+                                                                                <option value="173" >Pakistan</option>
+                                                                                <option value="174" >Palau</option>
+                                                                                <option value="175" >Palestine</option>
+                                                                                <option value="176" >Panama</option>
+                                                                                <option value="177" >Papua New Guinea</option>
+                                                                                <option value="178" >Paraguay</option>
+                                                                                <option value="179" >Peru</option>
+                                                                                <option value="180" >Philippines</option>
+                                                                                <option value="181" >Pitcairn Islands</option>
+                                                                                <option value="182" >Poland</option>
+                                                                                <option value="183" >Portugal</option>
+                                                                                <option value="184" >Puerto Rico</option>
+                                                                                <option value="185" >Qatar</option>
+                                                                                <option value="186" >Réunion</option>
+                                                                                <option value="187" >Romania</option>
+                                                                                <option value="188" >Russia</option>
+                                                                                <option value="189" >Rwanda</option>
+                                                                                <option value="190" >Saint Barthélemy</option>
+                                                                                <option value="191" >Saint Helena</option>
+                                                                                <option value="192" >Saint Kitts and Nevis</option>
+                                                                                <option value="193" >Saint Lucia</option>
+                                                                                <option value="194" >Saint Martin</option>
+                                                                                <option value="195" >Saint Pierre and Miquelon</option>
+                                                                                <option value="196" >Samoa</option>
+                                                                                <option value="197" >San Marino</option>
+                                                                                <option value="198" >São Tomé and Príncipe</option>
+                                                                                <option value="199" >Saudi Arabia</option>
+                                                                                <option value="200" >Senegal</option>
+                                                                                <option value="201" >Serbia</option>
+                                                                                <option value="202" >Seychelles</option>
+                                                                                <option value="203" >Sierra Leone</option>
+                                                                                <option value="204" >Singapore</option>
+                                                                                <option value="205" >Sint Maarten</option>
+                                                                                <option value="206" >Slovakia</option>
+                                                                                <option value="207" >Slovenia</option>
+                                                                                <option value="208" >Solomon Islands</option>
+                                                                                <option value="209" >Somalia</option>
+                                                                                <option value="210" >South Africa</option>
+                                                                                <option value="211" >South Georgia &amp; South Sandwich Islands</option>
+                                                                                <option value="212" >South Korea</option>
+                                                                                <option value="213" >South Sudan</option>
+                                                                                <option value="214" >Spain</option>
+                                                                                <option value="215" >Sri Lanka</option>
+                                                                                <option value="216" >St. Vincent &amp; Grenadines</option>
+                                                                                <option value="217" >Sudan</option>
+                                                                                <option value="218" >Suriname</option>
+                                                                                <option value="219" >Svalbard and Jan Mayen</option>
+                                                                                <option value="220" >Swaziland</option>
+                                                                                <option value="221" >Sweden</option>
+                                                                                <option value="222" >Switzerland</option>
+                                                                                <option value="223" >Syria</option>
+                                                                                <option value="224" >Taiwan</option>
+                                                                                <option value="225" >Tajikistan</option>
+                                                                                <option value="226" >Tanzania</option>
+                                                                                <option value="227" >Thailand</option>
+                                                                                <option value="228" >Timor-Leste</option>
+                                                                                <option value="229" >Togo</option>
+                                                                                <option value="230" >Tokelau</option>
+                                                                                <option value="231" >Tonga</option>
+                                                                                <option value="232" >Trinidad and Tobago</option>
+                                                                                <option value="233" >Tristan da Cunha</option>
+                                                                                <option value="234" >Tunisia</option>
+                                                                                <option value="235" >Turkey</option>
+                                                                                <option value="236" >Turkmenistan</option>
+                                                                                <option value="237" >Turks and Caicos Islands</option>
+                                                                                <option value="238" >Tuvalu</option>
+                                                                                <option value="239" >U.S. Outlying Islands</option>
+                                                                                <option value="240" >U.S. Virgin Islands</option>
+                                                                                <option value="241" >Uganda</option>
+                                                                                <option value="242" >Ukraine</option>
+                                                                                <option value="243" >United Arab Emirates</option>
+                                                                                <option value="244" >United Kingdom</option>
+                                                                                <option value="245" >United States</option>
+                                                                                <option value="246" >Uruguay</option>
+                                                                                <option value="247" >Uzbekistan</option>
+                                                                                <option value="248" >Vanuatu</option>
+                                                                                <option value="249" >Vatican City</option>
+                                                                                <option value="250" >Venezuela</option>
+                                                                                <option value="251" >Vietnam</option>
+                                                                                <option value="252" >Wallis and Futuna</option>
+                                                                                <option value="253" >Western Sahara</option>
+                                                                                <option value="254" >Yemen</option>
+                                                                                <option value="255" >Zambia</option>
+                                                           
+                                    </select>
+                                                                    </div>
+
+                                
+                                <div class="form-inline">
+                                    <label>Año de nacimiento</label></br>
+
+                                    <select name="day" id="day" class="form-control" required>
+                                        <option value="">-- Dia --</option>
+                                                                                <option value='1' >1</option>
+                                                                                <option value='2' >2</option>
+                                                                                <option value='3' >3</option>
+                                                                                <option value='4' >4</option>
+                                                                                <option value='5' >5</option>
+                                                                                <option value='6' >6</option>
+                                                                                <option value='7' >7</option>
+                                                                                <option value='8' >8</option>
+                                                                                <option value='9' >9</option>
+                                                                                <option value='10' >10</option>
+                                                                                <option value='11' >11</option>
+                                                                                <option value='12' >12</option>
+                                                                                <option value='13' >13</option>
+                                                                                <option value='14' >14</option>
+                                                                                <option value='15' >15</option>
+                                                                                <option value='16' >16</option>
+                                                                                <option value='17' >17</option>
+                                                                                <option value='18' >18</option>
+                                                                                <option value='19' >19</option>
+                                                                                <option value='20' >20</option>
+                                                                                <option value='21' >21</option>
+                                                                                <option value='22' >22</option>
+                                                                                <option value='23' >23</option>
+                                                                                <option value='24' >24</option>
+                                                                                <option value='25' >25</option>
+                                                                                <option value='26' >26</option>
+                                                                                <option value='27' >27</option>
+                                                                                <option value='28' >28</option>
+                                                                                <option value='29' >29</option>
+                                                                                <option value='30' >30</option>
+                                                                                <option value='31' >31</option>
+                                                                                
+                                    </select>
+                                    
+                                    <select name="month" class="form-control" required>
+                                        <option value="">-- Mes --</option>
+                                                                                                                        <option value='1' >Enero</option>
+                                                                                <option value='2' >Febrero</option>
+                                                                                <option value='3' >Marzo</option>
+                                                                                <option value='4' >Abril</option>
+                                                                                <option value='5' >Mayo</option>
+                                                                                <option value='6' >Junio</option>
+                                                                                <option value='7' >Julio</option>
+                                                                                <option value='8' >Agosto</option>
+                                                                                <option value='9' >Septiembre</option>
+                                                                                <option value='10' >Octubre</option>
+                                                                                <option value='11' >Noviembre</option>
+                                                                                <option value='12' >Diciembre</option>
+                                                                            </select>
+                                    <select name="year" class="form-control" required>
+                                        <option value="">-- Año --</option>
+                                                                                <option value="1950" >1950</option>
+                                                                                <option value="1951" >1951</option>
+                                                                                <option value="1952" >1952</option>
+                                                                                <option value="1953" >1953</option>
+                                                                                <option value="1954" >1954</option>
+                                                                                <option value="1955" >1955</option>
+                                                                                <option value="1956" >1956</option>
+                                                                                <option value="1957" >1957</option>
+                                                                                <option value="1958" >1958</option>
+                                                                                <option value="1959" >1959</option>
+                                                                                <option value="1960" >1960</option>
+                                                                                <option value="1961" >1961</option>
+                                                                                <option value="1962" >1962</option>
+                                                                                <option value="1963" >1963</option>
+                                                                                <option value="1964" >1964</option>
+                                                                                <option value="1965" >1965</option>
+                                                                                <option value="1966" >1966</option>
+                                                                                <option value="1967" >1967</option>
+                                                                                <option value="1968" >1968</option>
+                                                                                <option value="1969" >1969</option>
+                                                                                <option value="1970" >1970</option>
+                                                                                <option value="1971" >1971</option>
+                                                                                <option value="1972" >1972</option>
+                                                                                <option value="1973" >1973</option>
+                                                                                <option value="1974" >1974</option>
+                                                                                <option value="1975" >1975</option>
+                                                                                <option value="1976" >1976</option>
+                                                                                <option value="1977" >1977</option>
+                                                                                <option value="1978" >1978</option>
+                                                                                <option value="1979" >1979</option>
+                                                                                <option value="1980" >1980</option>
+                                                                                <option value="1981" >1981</option>
+                                                                                <option value="1982" >1982</option>
+                                                                                <option value="1983" >1983</option>
+                                                                                <option value="1984" >1984</option>
+                                                                                <option value="1985" >1985</option>
+                                                                                <option value="1986" >1986</option>
+                                                                                <option value="1987" >1987</option>
+                                                                                <option value="1988" >1988</option>
+                                                                                <option value="1989" >1989</option>
+                                                                                <option value="1990" >1990</option>
+                                                                                <option value="1991" >1991</option>
+                                                                                <option value="1992" >1992</option>
+                                                                                <option value="1993" >1993</option>
+                                                                                <option value="1994" >1994</option>
+                                                                                <option value="1995" >1995</option>
+                                                                                <option value="1996" >1996</option>
+                                                                                <option value="1997" >1997</option>
+                                                                                <option value="1998" >1998</option>
+                                                                                <option value="1999" >1999</option>
+                                                                                <option value="2000" >2000</option>
+                                                                                <option value="2001" >2001</option>
+                                                                                <option value="2002" >2002</option>
+                                                                                <option value="2003" >2003</option>
+                                                                                <option value="2004" >2004</option>
+                                                                                <option value="2005" >2005</option>
+                                                                                <option value="2006" >2006</option>
+                                                                                <option value="2007" >2007</option>
+                                                                                <option value="2008" >2008</option>
+                                                                                <option value="2009" >2009</option>
+                                                                                <option value="2010" >2010</option>
+                                                                                <option value="2011" >2011</option>
+                                                                                <option value="2012" >2012</option>
+                                                                                <option value="2013" >2013</option>
+                                                                                <option value="2014" >2014</option>
+                                                                                <option value="2015" >2015</option>
+                                                                                <option value="2016" >2016</option>
+                                                                                <option value="2017" >2017</option>
+                                                                                
+                                    </select>
+                                                                                                                                            </div>
+                                
+                                <div class="form-group input-icon-left">
+                                    <label for="sexo">Sexo</label>
+                                    <select name="sex" class="form-control" required="">
+                                        <option value="">-- Selecciona tu Sexo --</option>
+                                        <option value='female' >Femenino</option>
+                                        <option value='male' >Masculino</option>
+                                    </select>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    </br><label>Captcha</label></br>
+                                    <div class="g-recaptcha" data-sitekey="6LeOfCoUAAAAAPbdDj7EZmmbxCCxIkXPSOx18I8J"></div>
+                                                                    </div>
+                                <button type="submit" class="btn btn-danger btn-block"><strong>Registrarse</strong></button>
+                                
+                            </form>
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="panel-footer">
+                            <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
+                            </div>
+                            ¿Ya tienes una cuenta? <a href='login.html' data-toggle='modal' data-animation='animated animate10 fadeInDown'>Logeate</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<footer class="Footer">
+		<div class="Container">
+			<div class="BX Row BFluid Sp20 NMb">
+				<div>
+					<p><span>Anime Online - <a href="#">AnimeJL</a></span> - Ningún vídeo se encuentra alojado en nuestros servidores.</p>
+					<nav class="mnftxt">
+																																								 
+							<a href="../pages/politica-de-privacidad.html">Política de privacidad</a>
+																															 
+							<a href="../pages/terminos-y-condiciones-de-uso.html">Términos y Condiciones</a>
+																															 
+							<a href="../pages/sobre-animejl.html">Sobre AnimeJL</a>
+																																																																			</nav>
+				</div>
+			 
+				<nav>
+					<p>
+						<span>Team AnimeJL</span>
+					</p>
+											<a href="../perfil/RivAnimation.html" class="Team" target="_blank" data-toggle='tooltip' data-placement='top' title="RivAnimation"><img src="../storage/user_avatars/rivanimation-avatar.jpg" alt='RivAnimation'>&nbsp;&nbsp; </a>
+				        						<a href="../perfil/JoelDark.html" class="Team" target="_blank" data-toggle='tooltip' data-placement='top' title="JoelDark"><img src="../storage/user_avatars/joeldark-avatar-9fj.jpg" alt='JoelDark'>&nbsp;&nbsp; </a>
+				        				</nav>
+				
+				<ul class="ListSocial BFixed">
+										<li>
+						<a href="https://www.facebook.com/AnimeZerowe/" target="_blank" class="fa-facebook" data-toggle='tooltip' data-placement='top' title='Siguenos en Facebook'></a>
+					</li>
+																				<li><a href="https://www.youtube.com/channel/UCq7fOv6ITTUJa-lf0yJGHYg" target="_blank" class="fa-youtube" data-toggle='tooltip' data-placement='top' title='Suscribete a nuestro Canal'></a></li>
+															<li><a href="#hdfx" class="fa-arrow-up"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>	</div>
+
+
+
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="../animeflv/js/jquery.typewatch.min.js"></script>
+<script type="text/javascript" src="../animeflv/js/scrlbr.js"></script>
+<script type="text/javascript" src="../animeflv/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../animeflv/js/percircle.min.js"></script>
+<script type="text/javascript" src="../animeflv/js/functionsc619.js?v=1.0"></script>
+<script type="text/javascript" src="../animeflv/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../animeflv/js/alertifyc619.js?v=1.0"></script>
+
+ 
+ 
+ <!-- Ads footer -<style>
+<!--[if lt IE 9]><script type="text/javascript" src="js/ie/css3mq.js"></script>
+<![endif]-->
+<!--[if lte IE 9]><script type="text/javascript" src="js/ie/ie.js"></script>
+<![endif]-->
+
+<script>var anime_info =""</script>
+<script src='../../www.google.com/recaptcha/api.js'></script>
+</body>
+
+<!-- Mirrored from www.anime-jl.net/auth/register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Mar 2022 22:12:42 GMT -->
+</html>
